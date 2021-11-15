@@ -51,6 +51,10 @@ body {
 .page a:focus {
   color: var(--accent-color);
 }
+
+.page .current {
+  color: var(--accent-color);
+}
 .contacts a {
   color: var(--secondary-text-color);
 }
@@ -134,7 +138,7 @@ body {
   line-height: 1.71;
   color: var(--primary-font-color);
 }
-.footer .contacts {
+.footer .contacts a {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
@@ -165,7 +169,7 @@ body {
 }
 
 /* List */
-.list h1 {
+.list h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
