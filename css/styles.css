@@ -146,6 +146,9 @@ body {
 .filter {
   list-style: none;
 }
+.hidden {
+  color: var(--primary-font-color);
+}
 
 .filter .button {
   font-weight: 500;
